@@ -88,7 +88,7 @@ resource "aws_instance" "datadog-2" {
     type        = "ssh"
     host        = self.public_ip
     user        = "ec2-user"
-    private_key = file("/Users/jesusoctavioacostasantos/git/infra/terra/datadog/datadog2.pem")
+    private_key = file("/Users//git/infra/terra/datadog/datadog2.pem")
   }
 
 
